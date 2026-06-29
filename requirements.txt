@@ -1,0 +1,21 @@
+# BharatRank — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Core AI / ML ─────────────────────────────────────────────────────────────
+sentence-transformers>=2.6.0
+faiss-cpu>=1.7.4
+numpy>=1.26.0
+
+# ── LLM Integration ──────────────────────────────────────────────────────────
+google-generativeai>=0.5.0
+
+# ── API ───────────────────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.0.0
+
+# ── Config / Utils ────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest>=8.0.0
